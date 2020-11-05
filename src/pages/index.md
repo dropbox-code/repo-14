@@ -106,14 +106,14 @@ Easily send assets to your Trello board, without ever leaving Photoshop.
 
 <TextBlock slots="video, heading, text, buttons" width="50%" theme="dark" />
 
-[Banner Ad Reflow](https://www.youtube.com/watch?v=vOvyOM6ka98&feature=youtu.be&ab_channel=AdobePhotoshop)
+[Photoshop Actions](https://youtu.be/_iZa1NoWMTg)
 
-### Photoshop API Demo
+### Photoshop Actions API now live in prerelease
 
-Our Banner Ad Reflow Extension allows you to create multiple banner ads from one design.
+Experience the power of Photoshop Actions in the cloud via our brand new API. This feature will allow you to automate imaging workflows by enabling playback of Photoshop Actions on one or many images via the cloud.
 
-- [See a demo](../apis/creativecloud/photo-imaging-api/api-demo.html?ref=bannerreflow)
-- [Sign up to learn more](https://photoshop.adobelanding.com/api-signup/)
+- [See Demo](../apis/creativecloud/photo-imaging-api/api-demo.html?ref=psactions)
+- [Sign up to learn more](https://photoshop.adobelanding.com/api-signup)
 
 <SummaryBlock slots="image, heading, text, buttons" background="rgb(9, 90, 186)" />
 
