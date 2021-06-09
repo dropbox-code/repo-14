@@ -5,11 +5,11 @@ description: Extend and integrate with Photoshop like never before
 
 <Hero slots="image, heading, icon, text" variant="halfwidth" />
 
-![Creative Cloud banner](images/cc-hero.png)
+![Creative Cloud banner](https://adobe.io/shared/images/cc-hero.png)
 
 # Photoshop is extensible like never before
 
-![Photoshop icon](images/icons/ps-icon.png)
+![Photoshop icon](https://adobe.io/shared/icons/ps_appicon_64.svg)
 
 The creative world runs on Photoshop—and with Photoshop APIs and SDKs, developers can take it even further. Build plugins and integrations that harness the power of the world’s best image editing and graphic design software to transform creative workflows for users everywhere.
 
@@ -117,7 +117,7 @@ Experience the power of Photoshop Actions in the cloud via our brand new API. Th
 
 <SummaryBlock slots="image, heading, text, buttons" background="rgb(9, 90, 186)" />
 
-![CC banner](images/cc-banner.png)
+![CC banner](https://adobe.io/shared/images/cc-banner.png)
 
 ## Get the latest news for Creative Cloud Developers
 
