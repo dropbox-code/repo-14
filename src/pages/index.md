@@ -112,7 +112,7 @@ Easily send assets to your Trello board, without ever leaving Photoshop.
 
 Experience the power of Photoshop Actions in the cloud via our brand new API. This feature will allow you to automate imaging workflows by enabling playback of Photoshop Actions on one or many images via the cloud.
 
-- [See Demo](../apis/creativecloud/photo-imaging-api/api-demo.html?ref=psactions)
+- [See Demo](https://www.adobe.io/photoshop/api/demo/?ref=psactions)
 - [Sign up to learn more](https://photoshop.adobelanding.com/api-signup)
 
 <SummaryBlock slots="image, heading, text, buttons" background="rgb(9, 90, 186)" />
