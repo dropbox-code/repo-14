@@ -114,7 +114,7 @@ Easily send assets to your Trello board, without ever leaving Photoshop.
 
 - [Learn more](https://trello.com/integrations)
 
-<TextBlock slots="video, heading, text, buttons" width="50%" theme="dark" />
+<TextBlock slots="video, heading, text, buttons" theme="dark" />
 
 [Photoshop Actions](https://youtu.be/_iZa1NoWMTg)
 
