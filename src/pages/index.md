@@ -59,7 +59,7 @@ Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workf
 
 Build powerful, low-level integrations using the C++ SDK. Create filters, provide support for additional image formats, create new selectors, and more.
 
-- [Download the SDK](https://www.adobe.io/console/servicesandapis)
+- [Download the SDK](https://developer.adobe.com/console/servicesandapis/ps)
 - [Where to find it](https://medium.com/adobetech/locate-and-download-the-photoshop-c-sdk-4f0e55f091ae?source=friends_link&sk=81164b58cf1d034ccfaa73275d7edb58)
 
 <TitleBlock slots="heading, text" theme="light" />
