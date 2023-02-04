@@ -107,21 +107,110 @@ Build powerful, low-level integrations using the C++ SDK. Create filters, provid
 - [Where to find it](https://medium.com/adobetech/locate-and-download-the-photoshop-c-sdk-4f0e55f091ae?source=friends_link&sk=81164b58cf1d034ccfaa73275d7edb58)
 
 
-<TitleBlock slots="heading, text, table" theme="light" />
+<TitleBlock slots="heading, text" theme="light" />
 
 ### Which one is right for me?
 
 With so many choices, it can be a little hard to decide.
+<br /><br />
+  <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0pky"></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Photoshop version</span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Programming Languages</span></th>
+        <th class="tg-0pky"><span style="font-style:italic">*Associated File Extension </span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">User Interface  (UI)</span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Skill Level</span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">M1 Compatible</span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Free or Paid</span></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">UXP Scripts</span></td>
+        <td class="tg-0pky">&gt; 22</td>
+        <td class="tg-0pky">JavaScript (ECMAScript &gt;6)</td>
+        <td class="tg-0pky">PSJS</td>
+        <td class="tg-0pky">Optional</td>
+        <td class="tg-0pky">Beginner</td>
+        <td class="tg-0pky">Yes</td>
+        <td class="tg-0pky">Free</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">UXP Plugins</span></td>
+        <td class="tg-0pky">≥14, ≤ 21</td>
+        <td class="tg-0pky">JavaScript, HTML, CSS</td>
+        <td class="tg-0pky">CCX</td>
+        <td class="tg-0pky">Panels</td>
+        <td class="tg-0pky">Novice</td>
+        <td class="tg-0pky">Yes</td>
+        <td class="tg-0pky">Free</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">UXP Hybrid Plugins</span></td>
+        <td class="tg-0pky">≥ 24</td>
+        <td class="tg-0pky">C++, JavaScript, HTML, CSS</td>
+        <td class="tg-0pky">CCX</td>
+        <td class="tg-0pky">Panels</td>
+        <td class="tg-0pky">Advanced</td>
+        <td class="tg-0pky">Yes</td>
+        <td class="tg-0pky">Free</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">Photoshop Actions API</span></td>
+        <td class="tg-0pky">≥ 20</td>
+        <td class="tg-0pky">JavaScript</td>
+        <td class="tg-0pky">n/a</td>
+        <td class="tg-0pky">n/a</td>
+        <td class="tg-0pky">Novice</td>
+        <td class="tg-0pky">Yes</td>
+        <td class="tg-0pky">Paid</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">Scripting with ExtendScript</span></td>
+        <td class="tg-0pky">≥ 21</td>
+        <td class="tg-0pky">JavaScript (ECMAScript 3)</td>
+        <td class="tg-0pky">JSX</td>
+        <td class="tg-0pky">ScriptUI</td>
+        <td class="tg-0pky">Beginner</td>
+        <td class="tg-0pky">Yes</td>
+        <td class="tg-0pky">Free</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">CEP Panels</span></td>
+        <td class="tg-0pky">≥14, ≤ 20</td>
+        <td class="tg-0pky">Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS</td>
+        <td class="tg-0pky">ZXP</td>
+        <td class="tg-0pky">Panels</td>
+        <td class="tg-0pky">Novice</td>
+        <td class="tg-0pky">No</td>
+        <td class="tg-0pky">Free</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"><span style="font-weight:bold">C++ SDK</span></td>
+        <td class="tg-0pky">CS3</td>
+        <td class="tg-0pky">C++</td>
+        <td class="tg-0pky">EXE, DMG</td>
+        <td class="tg-0pky">Panels (optional)</td>
+        <td class="tg-0pky">Advanced</td>
+        <td class="tg-0pky">Yes</td>
+        <td class="tg-0pky">Free</td>
+      </tr>
+    </tbody>
+    </table>
 
-|                             | **Photoshop version** | **Programming Languages**                                   | **Associated File Extension ** | **User Interface  (UI)** | **Skill Level** | **M1 Compatible** | **Free or Paid** |
-|-----------------------------|-----------------------|-------------------------------------------------------------|--------------------------------|--------------------------|-----------------|-------------------|------------------|
-| UXP Scripts                 | > 22                  | JavaScript (ECMAScript >6)                                  | PSJS                           | Optional                 | Beginner        | Yes               | Free             |
-| UXP Plugins                 | ≥14, ≤ 21             | JavaScript, HTML, CSS                                       | CCX                            | Panels                   | Novice          | Yes               | Free             |
-| UXP Hybrid Plugins          | ≥ 24                  | C++, JavaScript, HTML, CSS                                  | CCX                            | Panels                   | Advanced        | Yes               | Free             |
-| Photoshop Actions API       | ≥ 20                  | JavaScript                                                  | n/a                            | n/a                      | Novice          | Yes               | Paid             |
-| Scripting with ExtendScript | ≥ 21                  | JavaScript (ECMAScript 3)                                   | JSX                            | ScriptUI                 | Beginner        | Yes               | Free             |
-| CEP Panels                  | ≥14, ≤ 20             | Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS | ZXP                            | Panels                   | Novice          | No                | Free             |
-| C++ SDK                     | CS3                   | C++                                                         | EXE, DMG                       | Panels (optional)        | Advanced        | Yes               | Free             |
+<br /><br />
+
+|                                 | **Photoshop version** | **Programming Languages**                                   | **Associated File Extension ** | **User Interface  (UI)** | **Skill Level** | **M1 Compatible** | **Free or Paid** |
+|---------------------------------|-----------------------|-------------------------------------------------------------|--------------------------------|--------------------------|-----------------|-------------------|------------------|
+| **UXP Scripts**                 | > 22                  | JavaScript (ECMAScript >6)                                  | PSJS                           | Optional                 | Beginner        | Yes               | Free             |
+| **UXP Plugins**                 | ≥14, ≤ 21             | JavaScript, HTML, CSS                                       | CCX                            | Panels                   | Novice          | Yes               | Free             |
+| **UXP Hybrid Plugins**          | ≥ 24                  | C++, JavaScript, HTML, CSS                                  | CCX                            | Panels                   | Advanced        | Yes               | Free             |
+| **Photoshop Actions API**       | ≥ 20                  | JavaScript                                                  | n/a                            | n/a                      | Novice          | Yes               | Paid             |
+| **Scripting with ExtendScript** | ≥ 21                  | JavaScript (ECMAScript 3)                                   | JSX                            | ScriptUI                 | Beginner        | Yes               | Free             |
+| **CEP Panels**                  | ≥14, ≤ 20             | Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS | ZXP                            | Panels                   | Novice          | No                | Free             |
+| **C++ SDK**                     | CS3                   | C++                                                         | EXE, DMG                       | Panels (optional)        | Advanced        | Yes               | Free             |
 
 
 <TextBlock slots="heading, text, buttons" width="100%" theme="dark" isCentered />
