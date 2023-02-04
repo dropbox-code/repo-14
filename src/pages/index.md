@@ -55,7 +55,7 @@ Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 - [Download the SDK](uxp)
 
 
-<TitleBlock slots="heading, text, buttons" theme="dark" />
+<TitleBlock slots="heading, text, buttons" theme="light" />
 
 ### The Photoshop Actions API
 
@@ -63,7 +63,7 @@ Use Photoshop, Lightroom, and Sensei together to create web or server-based work
 
 - [Learn more](../apis/creativecloud/photo-imaging-api.html)
 
-<TextBlock slots="video, heading, text, buttons" theme="dark" />
+<TextBlock slots="video, heading, text, buttons" theme="light" />
 
 [Photoshop Actions](https://youtu.be/_iZa1NoWMTg)
 
@@ -75,10 +75,9 @@ Experience the power of Photoshop Actions in the cloud via our brand new API. Th
 - [Sign up to learn more](https://www.adobe.io/photoshop/api/signup/?ref=signup)
 
 
+<TitleBlock slots="heading, text" theme="dark" />
 
-<TitleBlock slots="heading, text" theme="light" />
-
-### Extending Prior versions of Photoshop 
+### Extending Prior Versions of Photoshop 
 
 If you're working with Photoshop 2020 (v.21) or earlier, try CEP, ExtendScript, and/or the C++ SDK.
 
@@ -98,7 +97,7 @@ Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workf
 
 - [Visit the repo](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_10.x/Documentation/CEP%2010.0%20HTML%20Extension%20Cookbook.md)
 
-<TextBlock slots="heading, text, buttons" width="25%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
 ### C++ SDK
 
@@ -108,13 +107,31 @@ Build powerful, low-level integrations using the C++ SDK. Create filters, provid
 - [Where to find it](https://medium.com/adobetech/locate-and-download-the-photoshop-c-sdk-4f0e55f091ae?source=friends_link&sk=81164b58cf1d034ccfaa73275d7edb58)
 
 
-<TextBlock slots="heading, text, buttons" width="50%" theme="light" isCentered />
+<TitleBlock slots="heading, text, table" theme="light" />
+
+### Which one is right for me?
+
+With so many choices, it can be a little hard to decide.
+
+|                             | **Photoshop version** | **Programming Languages**                                   | **Associated File Extension ** | **User Interface  (UI)** | **Skill Level** | **M1 Compatible** | **Free or Paid** |
+|-----------------------------|-----------------------|-------------------------------------------------------------|--------------------------------|--------------------------|-----------------|-------------------|------------------|
+| UXP Scripts                 | > 22                  | JavaScript (ECMAScript >6)                                  | PSJS                           | Optional                 | Beginner        | Yes               | Free             |
+| UXP Plugins                 | ≥14, ≤ 21             | JavaScript, HTML, CSS                                       | CCX                            | Panels                   | Novice          | Yes               | Free             |
+| UXP Hybrid Plugins          | ≥ 24                  | C++, JavaScript, HTML, CSS                                  | CCX                            | Panels                   | Advanced        | Yes               | Free             |
+| Photoshop Actions API       | ≥ 20                  | JavaScript                                                  | n/a                            | n/a                      | Novice          | Yes               | Paid             |
+| Scripting with ExtendScript | ≥ 21                  | JavaScript (ECMAScript 3)                                   | JSX                            | ScriptUI                 | Beginner        | Yes               | Free             |
+| CEP Panels                  | ≥14, ≤ 20             | Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS | ZXP                            | Panels                   | Novice          | No                | Free             |
+| C++ SDK                     | CS3                   | C++                                                         | EXE, DMG                       | Panels (optional)        | Advanced        | Yes               | Free             |
+
+
+<TextBlock slots="heading, text, buttons" width="100%" theme="dark" isCentered />
 
 ### Connect with our community
 
 Ask questions, offer help, and inspire each other with what you create.
 
-- [Join the Creative Cloud Developer Forums](https://forums.creativeclouddeveloper.com)
+- [Join the UXP Developer Forums](https://forums.creativeclouddeveloper.com)
+- [Visit the Photoshop Developer Forums](https://community.adobe.com/t5/photoshop-developers/ct-p/ct-photoshop-developers)
 
 
 
@@ -126,5 +143,5 @@ Ask questions, offer help, and inspire each other with what you create.
 
 With the Creative Cloud Developer Newsletter and the Adobe Tech Blog, we offer regular content for anyone who creates plugins and integrations for the Creative Cloud family of products and services. Get updates in your inbox, in your RSS reader, or both!
 
-- [Join the newsletter](http://adobe.ly/devnews)
+- [Subscribe to the newsletter](http://adobe.ly/devnews)
 - [Follow the blog](https://medium.com/adobetech)
