@@ -43,7 +43,7 @@ var (
 
 type MetricMapper struct {
 	Registerer prometheus.Registerer
-	Defaults   mapperConfigDefaults `yaml:"defaults"`
+	Defaults   MapperConfigDefaults `yaml:"defaults"`
 	Mappings   []MetricMapping      `yaml:"mappings"`
 	FSM        *fsm.FSM
 	doFSM      bool
