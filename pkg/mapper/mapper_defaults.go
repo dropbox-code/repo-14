@@ -15,7 +15,7 @@ package mapper
 
 import "time"
 
-type mapperConfigDefaults struct {
+type MapperConfigDefaults struct {
 	ObserverType        ObserverType     `yaml:"observer_type"`
 	MatchType           MatchType        `yaml:"match_type"`
 	GlobDisableOrdering bool             `yaml:"glob_disable_ordering"`
@@ -39,7 +39,7 @@ type mapperConfigDefaultsAlias struct {
 
 // UnmarshalYAML is a custom unmarshal function to allow use of deprecated config keys
 // observer_type will override timer_type
-func (d *mapperConfigDefaults) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (d *MapperConfigDefaults) UnmarshalYAML(unmarshal func(interface{}) error) error {
 	var tmp mapperConfigDefaultsAlias
 	if err := unmarshal(&tmp); err != nil {
 		return err
