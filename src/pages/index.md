@@ -113,13 +113,14 @@ Build powerful, low-level integrations using the C++ based Photoshop Plug-in and
 
 With so many choices, it can be a little hard to decide.
 <br /><br />
-  <table class="tg">
+<center>
+  <table class="tg" width="90%">
     <thead>
       <tr>
         <th class="tg-0pky"></th>
         <th class="tg-0pky"><span style="font-weight:bold">Photoshop version</span></th>
         <th class="tg-0pky"><span style="font-weight:bold">Programming Languages</span></th>
-        <th class="tg-0pky"><span style="font-style:italic">Associated File Extension </span></th>
+        <th class="tg-0pky"><span style="font-weight:bold">Associated File Extension </span></th>
         <th class="tg-0pky"><span style="font-weight:bold">User Interface  (UI)</span></th>
         <th class="tg-0pky"><span style="font-weight:bold">Skill Level</span></th>
         <th class="tg-0pky"><span style="font-weight:bold">M1 Compatible</span></th>
@@ -129,7 +130,7 @@ With so many choices, it can be a little hard to decide.
     <tbody>
       <tr>
         <td class="tg-0pky"><span style="font-weight:bold">UXP Scripts</span></td>
-        <td class="tg-0pky">&gt; 22</td>
+        <td class="tg-0pky">22</td>
         <td class="tg-0pky">JavaScript (ECMAScript &gt;6)</td>
         <td class="tg-0pky">PSJS</td>
         <td class="tg-0pky">Optional</td>
@@ -139,7 +140,7 @@ With so many choices, it can be a little hard to decide.
       </tr>
       <tr>
         <td class="tg-0pky"><span style="font-weight:bold">UXP Plugins</span></td>
-        <td class="tg-0pky">≥14, ≤ 21</td>
+        <td class="tg-0pky">14</td>
         <td class="tg-0pky">JavaScript, HTML, CSS</td>
         <td class="tg-0pky">CCX</td>
         <td class="tg-0pky">Panels</td>
@@ -199,7 +200,7 @@ With so many choices, it can be a little hard to decide.
       </tr>
     </tbody>
     </table>
-
+</center>
 <TextBlock slots="heading, text, buttons" width="100%" theme="dark" isCentered />
 
 ### Connect with our community
