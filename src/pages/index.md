@@ -11,6 +11,7 @@ keywords:
   - Scripting
 title: Photoshop APIs for developers and scripters
 description: Extend and integrate with Photoshop like never before
+topics: How to create your own Photoshop scripts, Powerful scripts for extending Photoshop, Scripting in Photoshop, Introduction to Photoshop Scripts, Make your own Photoshop plug-ins, Is there an API for Photoshop, How to use the Photoshop API
 ---
 
 <Hero slots="image, heading, icon, text" variant="halfwidth" />
@@ -57,7 +58,7 @@ Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 
 <TitleBlock slots="heading, text, buttons" theme="light" />
 
-### The Photoshop Actions API
+### The Photoshop API
 
 Use Photoshop, Lightroom, and Sensei together to create web or server-based workflows to cut out images, reflow banner ads, and more.
 
@@ -71,8 +72,7 @@ Use Photoshop, Lightroom, and Sensei together to create web or server-based work
 
 Experience the power of Photoshop Actions in the cloud via our brand new API. This feature will allow you to automate imaging workflows by enabling playback of Photoshop Actions on one or many images via the cloud.
 
-- [See Demo](https://www.adobe.io/photoshop/api/demo/?ref=psactions)
-- [Sign up to learn more](https://www.adobe.io/photoshop/api/signup/?ref=signup)
+- [Start free trial](https://adobeio.typeform.com/to/obqgRm)
 
 
 <TitleBlock slots="heading, text" theme="dark" />
@@ -101,9 +101,9 @@ Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workf
 
 ### C++ SDK
 
-Build powerful, low-level integrations using the C++ SDK. Create filters, provide support for additional image formats, create new selectors, and more.
+Build powerful, low-level integrations using the C++ based Photoshop Plug-in and Connection SDK. Create filters, provide support for additional image formats, create new selectors, and more.
 
-- [Download the SDK](https://developer.adobe.com/console/servicesandapis/ps)
+- [Download the Connection SDK](https://developer.adobe.com/console/servicesandapis/ps)
 - [Where to find it](https://medium.com/adobetech/locate-and-download-the-photoshop-c-sdk-4f0e55f091ae?source=friends_link&sk=81164b58cf1d034ccfaa73275d7edb58)
 
 
@@ -119,7 +119,7 @@ With so many choices, it can be a little hard to decide.
         <th class="tg-0pky"></th>
         <th class="tg-0pky"><span style="font-weight:bold">Photoshop version</span></th>
         <th class="tg-0pky"><span style="font-weight:bold">Programming Languages</span></th>
-        <th class="tg-0pky"><span style="font-style:italic">*Associated File Extension </span></th>
+        <th class="tg-0pky"><span style="font-style:italic">Associated File Extension </span></th>
         <th class="tg-0pky"><span style="font-weight:bold">User Interface  (UI)</span></th>
         <th class="tg-0pky"><span style="font-weight:bold">Skill Level</span></th>
         <th class="tg-0pky"><span style="font-weight:bold">M1 Compatible</span></th>
@@ -149,7 +149,7 @@ With so many choices, it can be a little hard to decide.
       </tr>
       <tr>
         <td class="tg-0pky"><span style="font-weight:bold">UXP Hybrid Plugins</span></td>
-        <td class="tg-0pky">≥ 24</td>
+        <td class="tg-0pky">24</td>
         <td class="tg-0pky">C++, JavaScript, HTML, CSS</td>
         <td class="tg-0pky">CCX</td>
         <td class="tg-0pky">Panels</td>
@@ -159,7 +159,7 @@ With so many choices, it can be a little hard to decide.
       </tr>
       <tr>
         <td class="tg-0pky"><span style="font-weight:bold">Photoshop Actions API</span></td>
-        <td class="tg-0pky">≥ 20</td>
+        <td class="tg-0pky">20</td>
         <td class="tg-0pky">JavaScript</td>
         <td class="tg-0pky">n/a</td>
         <td class="tg-0pky">n/a</td>
@@ -169,7 +169,7 @@ With so many choices, it can be a little hard to decide.
       </tr>
       <tr>
         <td class="tg-0pky"><span style="font-weight:bold">Scripting with ExtendScript</span></td>
-        <td class="tg-0pky">≥ 21</td>
+        <td class="tg-0pky">21</td>
         <td class="tg-0pky">JavaScript (ECMAScript 3)</td>
         <td class="tg-0pky">JSX</td>
         <td class="tg-0pky">ScriptUI</td>
@@ -179,7 +179,7 @@ With so many choices, it can be a little hard to decide.
       </tr>
       <tr>
         <td class="tg-0pky"><span style="font-weight:bold">CEP Panels</span></td>
-        <td class="tg-0pky">≥14, ≤ 20</td>
+        <td class="tg-0pky">14 to 20</td>
         <td class="tg-0pky">Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS</td>
         <td class="tg-0pky">ZXP</td>
         <td class="tg-0pky">Panels</td>
@@ -188,10 +188,10 @@ With so many choices, it can be a little hard to decide.
         <td class="tg-0pky">Free</td>
       </tr>
       <tr>
-        <td class="tg-0pky"><span style="font-weight:bold">C++ SDK</span></td>
+        <td class="tg-0pky"><span style="font-weight:bold">Photoshop Plug-in and Connection SDK</span></td>
         <td class="tg-0pky">CS3</td>
         <td class="tg-0pky">C++</td>
-        <td class="tg-0pky">EXE, DMG</td>
+        <td class="tg-0pky">DLL, EXE, DMG</td>
         <td class="tg-0pky">Panels (optional)</td>
         <td class="tg-0pky">Advanced</td>
         <td class="tg-0pky">Yes</td>
@@ -199,19 +199,6 @@ With so many choices, it can be a little hard to decide.
       </tr>
     </tbody>
     </table>
-
-<br /><br />
-
-|                                 | **Photoshop version** | **Programming Languages**                                   | **Associated File Extension ** | **User Interface  (UI)** | **Skill Level** | **M1 Compatible** | **Free or Paid** |
-|---------------------------------|-----------------------|-------------------------------------------------------------|--------------------------------|--------------------------|-----------------|-------------------|------------------|
-| **UXP Scripts**                 | > 22                  | JavaScript (ECMAScript >6)                                  | PSJS                           | Optional                 | Beginner        | Yes               | Free             |
-| **UXP Plugins**                 | ≥14, ≤ 21             | JavaScript, HTML, CSS                                       | CCX                            | Panels                   | Novice          | Yes               | Free             |
-| **UXP Hybrid Plugins**          | ≥ 24                  | C++, JavaScript, HTML, CSS                                  | CCX                            | Panels                   | Advanced        | Yes               | Free             |
-| **Photoshop Actions API**       | ≥ 20                  | JavaScript                                                  | n/a                            | n/a                      | Novice          | Yes               | Paid             |
-| **Scripting with ExtendScript** | ≥ 21                  | JavaScript (ECMAScript 3)                                   | JSX                            | ScriptUI                 | Beginner        | Yes               | Free             |
-| **CEP Panels**                  | ≥14, ≤ 20             | Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS | ZXP                            | Panels                   | Novice          | No                | Free             |
-| **C++ SDK**                     | CS3                   | C++                                                         | EXE, DMG                       | Panels (optional)        | Advanced        | Yes               | Free             |
-
 
 <TextBlock slots="heading, text, buttons" width="100%" theme="dark" isCentered />
 
@@ -221,7 +208,6 @@ Ask questions, offer help, and inspire each other with what you create.
 
 - [Join the UXP Developer Forums](https://forums.creativeclouddeveloper.com)
 - [Visit the Photoshop Developer Forums](https://community.adobe.com/t5/photoshop-developers/ct-p/ct-photoshop-developers)
-
 
 
 <SummaryBlock slots="image, heading, text, buttons" background="rgb(9, 90, 186)" />
