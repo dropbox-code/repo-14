@@ -75,13 +75,13 @@ Experience the power of Photoshop Actions in the cloud via our brand new API. Th
 - [Start free trial](https://adobeio.typeform.com/to/obqgRm)
 
 
-<TitleBlock slots="heading, text" theme="dark" />
+<TitleBlock slots="heading, text" background="rgb(100, 100, 100)" />
 
 ### Extending Prior Versions of Photoshop 
 
 If you're working with Photoshop 2020 (v.21) or earlier, try CEP, ExtendScript, and/or the C++ SDK.
 
-<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" isCentered background="rgb(100, 100, 100)" />
 
 ### ExtendScript, VB Script, and AppleScript
 
@@ -89,7 +89,7 @@ Write scipts using ExtendScript, Visual Basic Script, or AppleScript.
 
 - [View the documentation](https://github.com/Adobe-CEP/CEP-Resources/tree/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting)
 
-<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" isCentered background="rgb(100, 100, 100)" />
 
 ### CEP and ExtendScript
 
@@ -97,7 +97,7 @@ Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workf
 
 - [Visit the repo](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_10.x/Documentation/CEP%2010.0%20HTML%20Extension%20Cookbook.md)
 
-<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" isCentered background="rgb(100, 100, 100)" />
 
 ### C++ SDK
 
