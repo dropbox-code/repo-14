@@ -36,7 +36,7 @@ The Universal eXtensibility Platform – UXP is the next generation of plugin AP
 
 Write scripts in modern JavaScript to automate workflows.
 
-- [View the docs](https://developer.adobe.com/photoshop/uxp/2022/scripting/)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/scripting/)
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -44,7 +44,7 @@ Write scripts in modern JavaScript to automate workflows.
 
 Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next generation of plugin APIs, for Photoshop 22 and beyond.
 
-- [View the docs](https://developer.adobe.com/photoshop/uxp/2022/guides/)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/guides/)
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -52,7 +52,7 @@ Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next 
 
 Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 
-- [View the repo](https://developer.adobe.com/photoshop/uxp/2022/guides/hybrid-plugins)
+- [View the repo](https://developer.adobe.com/photoshop/uxp/guides/hybrid-plugins)
 
 
 <TitleBlock slots="heading, text, buttons" theme="light" />
@@ -100,9 +100,9 @@ Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workf
 
 ### C++ SDK
 
-Build powerful, low-level integrations using the C++ based Photoshop Plug-in and Connection SDK. Create filters, provide support for additional image formats, create new selectors, and more.
+Build powerful, low-level integrations using the C++ based Photoshop Plug-in and [Connection SDK](https://developer.adobe.com/console/servicesandapis/ps). Create filters, provide support for additional image formats, create new selectors, and more.
 
-- [Read the docs](https://developer.adobe.com/photoshop/uxp/2022/ps_reference/media/cpp-pluginsdk/)
+- [Read the docs](https://developer.adobe.com/photoshop/uxp/ps_reference/media/cpp-pluginsdk/)
 - [Where to find it](https://medium.com/adobetech/locate-and-download-the-photoshop-c-sdk-4f0e55f091ae?source=friends_link&sk=81164b58cf1d034ccfaa73275d7edb58)
 
 
@@ -119,9 +119,9 @@ With so many choices, it can be a little hard to decide.
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">
                 Extensibility Option</th>
             <th class="spectrum-Table-headCell">Use Case</th>
-            <th class="spectrum-Table-headCell">Skill Level</th>
+            <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Skill Level</th>
             <th class="spectrum-Table-headCell">Programming Language(s)</th>
-            <th class="spectrum-Table-headCell">Photoshop version Minimum</th>
+            <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Photoshop version Minimum</th>
             <th class="spectrum-Table-headCell">Under Active Development by Adobe</th>
             <th class="spectrum-Table-headCell">Associated File Extension </th>
             <th class="spectrum-Table-headCell">Note</th>
