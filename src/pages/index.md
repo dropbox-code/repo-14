@@ -36,7 +36,7 @@ The Universal eXtensibility Platform – UXP is the next generation of plugin AP
 
 Write scripts in modern JavaScript to automate workflows.
 
-- [View the docs](uxp)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/2022/scripting/)
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -44,7 +44,7 @@ Write scripts in modern JavaScript to automate workflows.
 
 Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next generation of plugin APIs, for Photoshop 22 and beyond.
 
-- [View the docs](uxp)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/2022/guides/)
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -52,8 +52,7 @@ Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next 
 
 Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 
-- [View the docs](uxp)
-- [Download the SDK](uxp)
+- [View the repo](https://developer.adobe.com/photoshop/uxp/2022/guides/hybrid-plugins)
 
 
 <TitleBlock slots="heading, text, buttons" theme="light" />
