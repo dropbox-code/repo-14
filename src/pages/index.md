@@ -9,9 +9,13 @@ keywords:
   - SDK
   - C++
   - Scripting
+  - UXP Hybrid plugins
+  - PSJS 
+  - CEP
+  - Photoshop extensibility
 title: Photoshop APIs for developers and scripters
-description: Extend and integrate with Photoshop like never before
-topics: How to create your own Photoshop scripts, Powerful scripts for extending Photoshop, Scripting in Photoshop, Introduction to Photoshop Scripts, Make your own Photoshop plug-ins, Is there an API for Photoshop, How to use the Photoshop API
+description: Extend Photoshop using scripts, panels, plugins, or extensions. Learn more about Photoshop APIs and SDKs.
+topics: How to create your own Photoshop scripts, Powerful scripts for extending Photoshop, Scripting in Photoshop, Introduction to Photoshop Scripts, Make your own Photoshop plug-ins, Is there an API for Photoshop, How to use the Photoshop API, UXP, Photoshop API, CEP, ExtendScript, Join prerelease and forums, Photoshop C++ development, download the Photoshop SDK
 ---
 
 <Hero slots="image, heading, icon, text" variant="halfwidth" />
@@ -117,7 +121,8 @@ With so many choices, it can be a little hard to decide.
     <thead>
         <tr class="spectrum-Table-row">
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">
-                Extensibility Option</th>
+                Extensibility Option 
+                </th>
             <th class="spectrum-Table-headCell">Use Case</th>
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Skill Level</th>
             <th class="spectrum-Table-headCell">Programming Language(s)</th>
