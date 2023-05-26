@@ -165,7 +165,7 @@ With so many choices, it can be a little hard to decide.
             <td class="spectrum-Table-cell" tabindex="0"></td>
         </tr>
         <tr class="spectrum-Table-row">
-            <td class="spectrum-Table-cell" tabindex="0">Photoshop Actions API</td>
+            <td class="spectrum-Table-cell" tabindex="0">Photoshop API</td>
             <td class="spectrum-Table-cell" tabindex="0">Edit thousands of Photoshop documents in the cloud.</td>
             <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
             <td class="spectrum-Table-cell" tabindex="0">Any modern language making a REST API call</td>
