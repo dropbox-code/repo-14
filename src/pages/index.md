@@ -9,9 +9,13 @@ keywords:
   - SDK
   - C++
   - Scripting
+  - UXP Hybrid plugins
+  - PSJS 
+  - CEP
+  - Photoshop extensibility
 title: Photoshop APIs for developers and scripters
-description: Extend and integrate with Photoshop like never before
-topics: How to create your own Photoshop scripts, Powerful scripts for extending Photoshop, Scripting in Photoshop, Introduction to Photoshop Scripts, Make your own Photoshop plug-ins, Is there an API for Photoshop, How to use the Photoshop API
+description: Extend Photoshop using scripts, panels, plugins, or extensions. Learn more about Photoshop APIs and SDKs.
+topics: How to create your own Photoshop scripts, Powerful scripts for extending Photoshop, Scripting in Photoshop, Introduction to Photoshop Scripts, Make your own Photoshop plug-ins, Is there an API for Photoshop, How to use the Photoshop API, UXP, Photoshop API, CEP, ExtendScript, Join prerelease and forums, Photoshop C++ development, download the Photoshop SDK
 ---
 
 <Hero slots="image, heading, icon, text" variant="halfwidth" />
@@ -36,7 +40,7 @@ The Universal eXtensibility Platform – UXP is the next generation of plugin AP
 
 Write scripts in modern JavaScript to automate workflows.
 
-- [View the docs](uxp)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/scripting/)
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -44,7 +48,7 @@ Write scripts in modern JavaScript to automate workflows.
 
 Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next generation of plugin APIs, for Photoshop 22 and beyond.
 
-- [View the docs](uxp)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/guides/)
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -52,8 +56,7 @@ Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next 
 
 Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 
-- [View the docs](uxp)
-- [Download the SDK](uxp)
+- [View the repo](https://developer.adobe.com/photoshop/uxp/guides/hybrid-plugins)
 
 
 <TitleBlock slots="heading, text, buttons" theme="light" />
@@ -72,16 +75,17 @@ Use Photoshop, Lightroom, and Sensei together to create web or server-based work
 
 Experience the power of Photoshop Actions in the cloud via our brand new API. This feature will allow you to automate imaging workflows by enabling playback of Photoshop Actions on one or many images via the cloud.
 
-- [Start free trial](https://adobeio.typeform.com/to/obqgRm)
+- [See Demo](https://www.adobe.io/photoshop/api/demo/?ref=psactions)
+- [Sign up to learn more](https://www.adobe.io/photoshop/api/signup/?ref=signup)
 
 
-<TitleBlock slots="heading, text" theme="dark" />
+<TitleBlock slots="heading, text" />
 
 ### Extending Prior Versions of Photoshop 
 
 If you're working with Photoshop 2020 (v.21) or earlier, try CEP, ExtendScript, and/or the C++ SDK.
 
-<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" isCentered />
 
 ### ExtendScript, VB Script, and AppleScript
 
@@ -89,7 +93,7 @@ Write scipts using ExtendScript, Visual Basic Script, or AppleScript.
 
 - [View the documentation](https://github.com/Adobe-CEP/CEP-Resources/tree/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting)
 
-<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" isCentered />
 
 ### CEP and ExtendScript
 
@@ -97,13 +101,13 @@ Build classic extensions with CEP using HTML, CSS, and JS. Automate in-app workf
 
 - [Visit the repo](https://github.com/Adobe-CEP/CEP-Resources/blob/master/CEP_10.x/Documentation/CEP%2010.0%20HTML%20Extension%20Cookbook.md)
 
-<TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
+<TextBlock slots="heading, text, buttons" width="33%" isCentered />
 
 ### C++ SDK
 
-Build powerful, low-level integrations using the C++ based Photoshop Plug-in and Connection SDK. Create filters, provide support for additional image formats, create new selectors, and more.
+Build powerful, low-level integrations using the C++ based Photoshop Plug-in and [Connection SDK](https://developer.adobe.com/console/servicesandapis/ps). Create filters, provide support for additional image formats, create new selectors, and more.
 
-- [Download the Connection SDK](https://developer.adobe.com/console/servicesandapis/ps)
+- [Read the docs](https://developer.adobe.com/photoshop/uxp/ps_reference/media/cpp-pluginsdk/)
 - [Where to find it](https://medium.com/adobetech/locate-and-download-the-photoshop-c-sdk-4f0e55f091ae?source=friends_link&sk=81164b58cf1d034ccfaa73275d7edb58)
 
 
@@ -114,110 +118,105 @@ Build powerful, low-level integrations using the C++ based Photoshop Plug-in and
 With so many choices, it can be a little hard to decide.
 <br /><br />
 <center>
-<table class="spectrum-Table spectrum-Table--sizeM spectrum-Table--quiet">
-    <thead class="spectrum-Table-head">
-        <tr>
+<table>
+    <thead>
+        <tr class="spectrum-Table-row">
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">
-                Extensibility Option
-            </th>
-            <th class="spectrum-Table-headCell is-sortable" aria-sort="descending">Photoshop version
-            </th>
+                Extensibility Option 
+                </th>
+            <th class="spectrum-Table-headCell">Use Case</th>
+            <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Skill Level</th>
             <th class="spectrum-Table-headCell">Programming Language(s)</th>
-            <th class="spectrum-Table-headCell">Associated File Extension</th>
-            <th class="spectrum-Table-headCell">User Interface (UI) </th>
-            <th class="spectrum-Table-headCell">Skill Level </th>
-            <th class="spectrum-Table-headCell">M1 Compatible </th>
-            <th class="spectrum-Table-headCell">Free or Paid</th>
+            <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Photoshop version Minimum</th>
+            <th class="spectrum-Table-headCell">Under Active Development by Adobe</th>
+            <th class="spectrum-Table-headCell">Associated File Extension </th>
+            <th class="spectrum-Table-headCell">Note</th>
         </tr>
     </thead>
-    <tbody class="spectrum-Table-body">
+    <tbody>
         <tr class="spectrum-Table-row">
             <td class="spectrum-Table-cell" tabindex="0">UXP Scripts</td>
-            <td class="spectrum-Table-cell" tabindex="0">23.3</td>
-            <td class="spectrum-Table-cell" tabindex="0">JavaScript (ECMAScript &gt;6)</td>
-            <td class="spectrum-Table-cell" tabindex="0">PSJS</td>
-            <td class="spectrum-Table-cell" tabindex="0">Optional</td>
+            <td class="spectrum-Table-cell" tabindex="0">Speed up repetitive tasks.</td>
             <td class="spectrum-Table-cell" tabindex="0">Beginner</td>
+            <td class="spectrum-Table-cell" tabindex="0">JavaScript (ECMAScript &gt;6)</td>
+            <td class="spectrum-Table-cell" tabindex="0">23.5</td>
             <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">PSJS</td>
+            <td class="spectrum-Table-cell" tabindex="0"></td>
+        </tr>
         <tr class="spectrum-Table-row">
             <td class="spectrum-Table-cell" tabindex="0">UXP Plugins</td>
-            <td class="spectrum-Table-cell" tabindex="0">22</td>
+            <td class="spectrum-Table-cell" tabindex="0">Build panels or other integrations to aid your Photoshop
+                workflow. Store local data.</td>
+            <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
             <td class="spectrum-Table-cell" tabindex="0">JavaScript, HTML, CSS</td>
-            <td class="spectrum-Table-cell" tabindex="0">CCX</td>
-            <td class="spectrum-Table-cell" tabindex="0">Panels</td>
-            <td class="spectrum-Table-cell" tabindex="0">Novice</td>
+            <td class="spectrum-Table-cell" tabindex="0">22</td>
             <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">CCX</td>
+            <td class="spectrum-Table-cell" tabindex="0"></td>
+        </tr>
         <tr class="spectrum-Table-row">
             <td class="spectrum-Table-cell" tabindex="0">UXP Hybrid Plugins</td>
-            <td class="spectrum-Table-cell" tabindex="0">24</td>
-            <td class="spectrum-Table-cell" tabindex="0">C++, JavaScript, HTML, CSS
-            </td>
-            <td class="spectrum-Table-cell" tabindex="0">CCX</td>
-            <td class="spectrum-Table-cell" tabindex="0">Panels</td>
+            <td class="spectrum-Table-cell" tabindex="0">Build native apps with UXP components.</td>
             <td class="spectrum-Table-cell" tabindex="0">Advanced</td>
+            <td class="spectrum-Table-cell" tabindex="0">C++, JavaScript, HTML, CSS</td>
+            <td class="spectrum-Table-cell" tabindex="0">24.2</td>
             <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">CCX</td>
+            <td class="spectrum-Table-cell" tabindex="0"></td>
+        </tr>
         <tr class="spectrum-Table-row">
-            <td class="spectrum-Table-cell" tabindex="0">Photoshop Actions API</td>
+            <td class="spectrum-Table-cell" tabindex="0">Photoshop API</td>
+            <td class="spectrum-Table-cell" tabindex="0">Edit thousands of Photoshop documents in the cloud.</td>
+            <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
+            <td class="spectrum-Table-cell" tabindex="0">Any modern language making a REST API call</td>
             <td class="spectrum-Table-cell" tabindex="0">n/a</td>
-            <td class="spectrum-Table-cell" tabindex="0">Any modern language making
-                a REST API call</td>
-            <td class="spectrum-Table-cell" tabindex="0">n/a</td>
-            <td class="spectrum-Table-cell" tabindex="0">n/a</td>
-            <td class="spectrum-Table-cell" tabindex="0">Novice</td>
             <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Paid</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">n/a</td>
+            <td class="spectrum-Table-cell" tabindex="0"></td>
+        </tr>
         <tr class="spectrum-Table-row">
-            <td class="spectrum-Table-cell" tabindex="0">Scripting with
-                ExtendScript</td>
-            <td class="spectrum-Table-cell" tabindex="0">CS3</td>
-            <td class="spectrum-Table-cell" tabindex="0">JavaScript (ECMAScript
-                3)</td>
-            <td class="spectrum-Table-cell" tabindex="0">JSX</td>
-            <td class="spectrum-Table-cell" tabindex="0">ScriptUI</td>
+            <td class="spectrum-Table-cell" tabindex="0">Scripting with ExtendScript</td>
+            <td class="spectrum-Table-cell" tabindex="0">Speed up repetitive tasks.</td>
             <td class="spectrum-Table-cell" tabindex="0">Beginner</td>
-            <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">JavaScript (ECMAScript 3)</td>
+            <td class="spectrum-Table-cell" tabindex="0">CS3</td>
+            <td class="spectrum-Table-cell" tabindex="0">No</td>
+            <td class="spectrum-Table-cell" tabindex="0">JSX</td>
+            <td class="spectrum-Table-cell" tabindex="0"></td>
+        </tr>
         <tr class="spectrum-Table-row">
             <td class="spectrum-Table-cell" tabindex="0">CEP Panels</td>
-            <td class="spectrum-Table-cell" tabindex="0">14 to 20</td>
-            <td class="spectrum-Table-cell" tabindex="0">Extendscript, based on JavaScript
-                (ECMAScript 3), HTML, CSS</td>
-            <td class="spectrum-Table-cell" tabindex="0">ZXP</td>
-            <td class="spectrum-Table-cell" tabindex="0">Panels (optional)
+            <td class="spectrum-Table-cell" tabindex="0">Build panels or other integrations to aid your Photoshop
+                workflow.</td>
+            <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
+            <td class="spectrum-Table-cell" tabindex="0">Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS
             </td>
-            <td class="spectrum-Table-cell" tabindex="0">Novice</td>
+            <td class="spectrum-Table-cell" tabindex="0">14 to 20</td>
             <td class="spectrum-Table-cell" tabindex="0">No</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">ZXP</td>
+            <td class="spectrum-Table-cell" tabindex="0">Not compatible with M1, M2, or Windows ARM</td>
+        </tr>
         <tr class="spectrum-Table-row">
             <td class="spectrum-Table-cell" tabindex="0">C++ SDK</td>
-            <td class="spectrum-Table-cell" tabindex="0">CS3</td>
-            <td class="spectrum-Table-cell" tabindex="0">C++</td>
-            <td class="spectrum-Table-cell" tabindex="0">DLL, EXE, DMG
-            </td>
-            <td class="spectrum-Table-cell" tabindex="0">Panels
-                (optional)</td>
+            <td class="spectrum-Table-cell" tabindex="0">Build powerful and fast plug-ins.</td>
             <td class="spectrum-Table-cell" tabindex="0">Advanced</td>
-            <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
-          </tr>
+            <td class="spectrum-Table-cell" tabindex="0">C++</td>
+            <td class="spectrum-Table-cell" tabindex="0">CS3</td>
+            <td class="spectrum-Table-cell" tabindex="0">No</td>
+            <td class="spectrum-Table-cell" tabindex="0">DLL, EXE, DMG</td>
+            <td class="spectrum-Table-cell" tabindex="0"></td>
+        </tr>
         <tr class="spectrum-Table-row">
             <td class="spectrum-Table-cell" tabindex="0">Generator</td>
-            <td class="spectrum-Table-cell" tabindex="0">14.1</td>
+            <td class="spectrum-Table-cell" tabindex="0">Generate image assets automatically, send messages to other
+                apps, or control Photoshop.</td>
+            <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
             <td class="spectrum-Table-cell" tabindex="0">JavaScript, NodeJS</td>
+            <td class="spectrum-Table-cell" tabindex="0">14.1</td>
+            <td class="spectrum-Table-cell" tabindex="0">No</td>
             <td class="spectrum-Table-cell" tabindex="0">n/a</td>
-            <td class="spectrum-Table-cell" tabindex="0">n/a</td>
-            <td class="spectrum-Table-cell" tabindex="0">Novice</td>
-            <td class="spectrum-Table-cell" tabindex="0">Yes</td>
-            <td class="spectrum-Table-cell" tabindex="0">Free</td>
+            <td class="spectrum-Table-cell" tabindex="0">Interim solution while UXP built imaging APIs</td>
         </tr>
     </tbody>
 </table>
