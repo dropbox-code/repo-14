@@ -32,7 +32,7 @@ The creative world runs on Photoshop—and with Photoshop APIs and SDKs, develop
 
 # Extensibility with UXP
 
-The Universal eXtensibility Platform – UXP is the next generation of plugin APIs, for Photoshop 22 and beyond.
+The Universal eXtensibility Platform – UXP is the next generation of plugin APIs, for Photoshop v22.0 and beyond.
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -46,7 +46,7 @@ Write scripts in modern JavaScript to automate workflows.
 
 ### UXP Plugins
 
-Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next generation of plugin APIs, for Photoshop 22 and beyond.
+Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next generation of APIs, for Photoshop v22.0 and beyond.
 
 - [View the docs](https://developer.adobe.com/photoshop/uxp/guides/)
 
@@ -56,7 +56,7 @@ Build performant plugins with modern HTML, CSS, and JavaScript. UXP is the next 
 
 Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 
-- [View the repo](https://developer.adobe.com/photoshop/uxp/guides/hybrid-plugins)
+- [View the docs](https://developer.adobe.com/photoshop/uxp/guides/hybrid-plugins)
 
 
 <TitleBlock slots="heading, text, buttons" theme="light" />
@@ -91,7 +91,7 @@ If you're working with Photoshop 2020 (v.21) or earlier, try CEP, ExtendScript, 
 
 Write scipts using ExtendScript, Visual Basic Script, or AppleScript.
 
-- [View the documentation](https://github.com/Adobe-CEP/CEP-Resources/tree/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting)
+- [View the docs](https://github.com/Adobe-CEP/CEP-Resources/tree/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting)
 
 <TextBlock slots="heading, text, buttons" width="33%" isCentered />
 
@@ -127,7 +127,7 @@ With so many choices, it can be a little hard to decide.
             <th class="spectrum-Table-headCell">Use Case</th>
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Skill Level</th>
             <th class="spectrum-Table-headCell">Programming Language(s)</th>
-            <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Photoshop version Minimum</th>
+            <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Photoshop Minimum version</th>
             <th class="spectrum-Table-headCell">Under Active Development by Adobe</th>
             <th class="spectrum-Table-headCell">Associated File Extension </th>
             <th class="spectrum-Table-headCell">Note</th>
@@ -150,7 +150,7 @@ With so many choices, it can be a little hard to decide.
                 workflow. Store local data.</td>
             <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
             <td class="spectrum-Table-cell" tabindex="0">JavaScript, HTML, CSS</td>
-            <td class="spectrum-Table-cell" tabindex="0">22</td>
+            <td class="spectrum-Table-cell" tabindex="0">22.0</td>
             <td class="spectrum-Table-cell" tabindex="0">Yes</td>
             <td class="spectrum-Table-cell" tabindex="0">CCX</td>
             <td class="spectrum-Table-cell" tabindex="0"></td>
@@ -192,7 +192,7 @@ With so many choices, it can be a little hard to decide.
             <td class="spectrum-Table-cell" tabindex="0">Intermediate</td>
             <td class="spectrum-Table-cell" tabindex="0">Extendscript, based on JavaScript (ECMAScript 3), HTML, CSS
             </td>
-            <td class="spectrum-Table-cell" tabindex="0">14 to 20</td>
+            <td class="spectrum-Table-cell" tabindex="0">14.0 to 20.0</td>
             <td class="spectrum-Table-cell" tabindex="0">No</td>
             <td class="spectrum-Table-cell" tabindex="0">ZXP</td>
             <td class="spectrum-Table-cell" tabindex="0">Not compatible with M1, M2, or Windows ARM</td>
