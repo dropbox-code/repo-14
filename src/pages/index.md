@@ -118,7 +118,7 @@ Build powerful, low-level integrations using the C++ based Photoshop Plug-in and
 With so many choices, it can be a little hard to decide.
 <br /><br />
 <center>
-<table>
+<table css="width:90vw;margin:0 5vw;" class="spectrum-Table spectrum-Table--sizeM">
     <thead>
         <tr class="spectrum-Table-row">
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">
