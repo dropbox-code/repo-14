@@ -32,7 +32,7 @@ The creative world runs on Photoshop—and with Photoshop APIs and SDKs, develop
 
 # Extensibility with UXP
 
-The Universal eXtensibility Platform – UXP is the next generation of plugin APIs, for Photoshop v22.0 and beyond.
+The Unified eXtensibility Platform – UXP is the next generation of plugin APIs, for Photoshop v22.0 and beyond.
 
 <TextBlock slots="heading, text, buttons" width="33%" theme="dark" isCentered />
 
@@ -89,7 +89,7 @@ If you're working with Photoshop 2020 (v.21) or earlier, try CEP, ExtendScript, 
 
 ### ExtendScript, VB Script, and AppleScript
 
-Write scipts using ExtendScript, Visual Basic Script, or AppleScript.
+Write scripts using ExtendScript, Visual Basic Script, or AppleScript.
 
 - [View the docs](https://github.com/Adobe-CEP/CEP-Resources/tree/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting)
 
