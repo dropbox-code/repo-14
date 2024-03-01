@@ -10,7 +10,7 @@ keywords:
   - C++
   - Scripting
   - UXP Hybrid plugins
-  - PSJS 
+  - PSJS
   - CEP
   - Photoshop extensibility
 title: Photoshop APIs for developers and scripters
@@ -63,7 +63,7 @@ Build powerful plugins using JavaScript, HTML, and CSS alongside C++.
 
 ### The Photoshop API
 
-Use Photoshop, Lightroom, and Sensei together to create web or server-based workflows to cut out images, reflow banner ads, and more.
+Use Photoshop, Lightroom, and the latest AI/ML technology together to create web or server-based workflows to automate your content workflows.
 
 - [Learn more](../apis/creativecloud/photo-imaging-api.html)
 
@@ -81,7 +81,7 @@ Experience the power of Photoshop Actions in the cloud via our brand new API. Th
 
 <TitleBlock slots="heading, text" />
 
-### Extending Prior Versions of Photoshop 
+### Extending Prior Versions of Photoshop
 
 If you're working with Photoshop 2020 (v.21) or earlier, try CEP, ExtendScript, and/or the C++ SDK.
 
@@ -122,7 +122,7 @@ With so many choices, it can be a little hard to decide.
     <thead>
         <tr class="spectrum-Table-row">
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">
-                Extensibility Option 
+                Extensibility Option
                 </th>
             <th class="spectrum-Table-headCell">Use Case</th>
             <th class="spectrum-Table-headCell is-sortable is-sorted-desc" aria-sort="descending" tabindex="0">Skill Level</th>
