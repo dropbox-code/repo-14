@@ -76,7 +76,7 @@ Use Photoshop, Lightroom, and Sensei together to create web or server-based work
 Experience the power of Photoshop Actions in the cloud via our brand new API. This feature will allow you to automate imaging workflows by enabling playback of Photoshop Actions on one or many images via the cloud.
 
 - [See Demo](https://www.adobe.io/photoshop/api/demo/?ref=psactions)
-- [Sign up to learn more](https://www.adobe.io/photoshop/api/signup/?ref=signup)
+- [Learn more](https://developer.adobe.com/photoshop/api/)
 
 
 <TitleBlock slots="heading, text" />
