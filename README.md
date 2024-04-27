@@ -19,4 +19,4 @@ git pull public master
 git push origin master
 ```
 
-Axe-core readme: https://github.com/dequelabs/axe-core/blob/v4.4.2/README.md
+Axe-core readme: https://github.com/dequelabs/axe-core/blob/v4.9.0/README.md
