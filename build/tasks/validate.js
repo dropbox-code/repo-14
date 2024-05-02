@@ -411,13 +411,9 @@ function findTagIssues(tags) {
     }
     if (standardTags.length === 0) {
       issues.push(`Expected one ${name} tag, got 0`);
+    } else if (standardTags.length > 1) {
+      issues.push(`Expected one ${name} tag, got: ${standardTags.join(', ')}`);
     }
-    // Commented out this part allowing multiple wcag rules.
-    // This is because we have multiple WCAG rules for different levels.
-
-    // else if (standardTags.length > 1) {
-    //   issues.push(`Expected one ${name} tag, got: ${standardTags.join(', ')}`);
-    // }
     if (criterionTags.length === 0) {
       issues.push(`Expected at least one ${name} criterion tag, got 0`);
     }
