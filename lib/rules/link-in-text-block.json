@@ -8,7 +8,11 @@
     "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
     "help": "Links must be distinguishable without relying on color"
   },
-  "all": ["link-in-text-block"],
+  "all": [{ 
+    "options": {
+      "a11yRule": false
+    }, "id": "link-in-text-block"
+  }],
   "any": [],
   "none": []
 }

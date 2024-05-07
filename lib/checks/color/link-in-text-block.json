@@ -1,6 +1,9 @@
 {
   "id": "link-in-text-block",
   "evaluate": "link-in-text-block-evaluate",
+  "options": {
+    "a11yRule": false
+  },
   "metadata": {
     "impact": "serious",
     "messages": {
