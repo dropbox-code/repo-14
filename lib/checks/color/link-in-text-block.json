@@ -3,7 +3,8 @@
   "evaluate": "link-in-text-block-evaluate",
   "options": {
     "requiredContrastRatio": 3,
-    "allowSameColor": true
+    "allowSameColor": true,
+    "a11yRule": false
   },
   "metadata": {
     "impact": "serious",
