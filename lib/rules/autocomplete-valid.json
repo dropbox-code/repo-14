@@ -1,11 +1,18 @@
 {
   "id": "autocomplete-valid",
   "matches": "autocomplete-a11y-matches",
-  "tags": ["cat.forms", "wcag21aa", "wcag135"],
+  "tags": [
+    "cat.forms",
+    "wcag21aa",
+    "wcag22aa",
+    "wcag135",
+    "a11y-engine",
+    "a11y-engine-experimental"
+  ],
   "actIds": ["73f2c2"],
   "metadata": {
-    "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
-    "help": "autocomplete attribute must be used correctly"
+    "description": "Ensure that the necessary form fields use the autocomplete attribute with a valid input.",
+    "help": "Autocomplete attribute must have a valid value"
   },
   "all": ["autocomplete-valid"],
   "any": [],
