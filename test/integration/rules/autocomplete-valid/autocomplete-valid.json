@@ -1,7 +1,25 @@
 {
   "description": "autocomplete-valid tests",
   "rule": "autocomplete-valid",
-  "violations": [["#fail1"], ["#fail2"], ["#fail3"], ["#fail4"]],
+  "violations": [
+    ["#fail1"],
+    ["#fail2"],
+    ["#fail3"],
+    ["#fail4"],
+    ["#fail5"],
+    ["#fail6"],
+    ["#fail7"],
+    ["#fail8"],
+    ["#fail9"],
+    ["#fail10"],
+    ["#fail11"],
+    ["#fail12"],
+    ["#fail13"],
+    ["#fail14"],
+    ["#fail15"],
+    ["#fail16"],
+    ["#fail17"]
+  ],
   "passes": [
     ["#pass1"],
     ["#pass2"],
@@ -80,18 +98,6 @@
     ["#pass75"],
     ["#pass76"],
     ["#pass77"],
-    ["#pass78"],
-    ["#pass79"],
-    ["#pass80"],
-    ["#pass81"],
-    ["#pass82"],
-    ["#pass83"],
-    ["#pass84"],
-    ["#pass85"],
-    ["#pass86"],
-    ["#pass87"],
-    ["#pass88"],
-    ["#pass89"],
-    ["#pass90"]
+    ["#pass78"]
   ]
 }
