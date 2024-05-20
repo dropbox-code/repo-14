@@ -1,6 +1,6 @@
 {
   "id": "autocomplete-valid",
-  "evaluate": "autocomplete-a11y-evaluate",
+  "evaluate": "autocomplete-valid-evaluate",
   "metadata": {
     "impact": "moderate",
     "messages": {

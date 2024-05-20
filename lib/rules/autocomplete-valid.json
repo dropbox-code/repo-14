@@ -1,6 +1,6 @@
 {
   "id": "autocomplete-valid",
-  "matches": "autocomplete-a11y-matches",
+  "matches": "autocomplete-matches",
   "tags": [
     "cat.forms",
     "wcag21aa",
