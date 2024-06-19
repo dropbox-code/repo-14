@@ -7,12 +7,10 @@ describe('autocomplete-valid virtual-rule', function () {
   //       autocomplete: 'country-name'
   //     }
   //   });
-
   //   assert.lengthOf(results.passes, 1);
   //   assert.lengthOf(results.violations, 0);
   //   assert.lengthOf(results.incomplete, 0);
   // });
-
   // it('should pass when autocomplete is correctly used', function () {
   //   var results = axe.runVirtualRule('autocomplete-valid', {
   //     nodeName: 'input',
@@ -21,12 +19,10 @@ describe('autocomplete-valid virtual-rule', function () {
   //       autocomplete: 'email'
   //     }
   //   });
-
   //   assert.lengthOf(results.passes, 1);
   //   assert.lengthOf(results.violations, 0);
   //   assert.lengthOf(results.incomplete, 0);
   // });
-
   // it('should fail autocomplete is not valid', function () {
   //   var results = axe.runVirtualRule('autocomplete-valid', {
   //     nodeName: 'input',
@@ -35,7 +31,6 @@ describe('autocomplete-valid virtual-rule', function () {
   //       autocomplete: 'foobar'
   //     }
   //   });
-
   //   assert.lengthOf(results.passes, 0);
   //   assert.lengthOf(results.violations, 1);
   //   assert.lengthOf(results.incomplete, 0);
