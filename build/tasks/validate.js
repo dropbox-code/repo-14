@@ -330,7 +330,8 @@ const categories = [
   'structure',
   'tables',
   'text-alternatives',
-  'time-and-media'
+  'time-and-media',
+  'images'
 ];
 
 const standardsTags = [
