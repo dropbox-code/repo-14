@@ -7,7 +7,7 @@
     "messages": {
       "pass": "Heading order valid",
       "fail": "Heading order invalid",
-      "incomplete": "Unable to determine previous heading"
+      "incomplete": "Fix the order of headings. Headings should be in descending order of size without skipping levels. For example, <h2> should be followed by <h3>, not <h4> or <h5>."
     }
   }
 }
