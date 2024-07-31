@@ -3,10 +3,16 @@
   "impact": "moderate",
   "selector": "h1, h2, h3, h4, h5, h6, [role=heading]",
   "matches": "heading-matches",
-  "tags": ["cat.semantics", "best-practice"],
+  "tags": [
+    "cat.structure",
+    "wcag2aaa",
+    "wcag2410",
+    "a11y-engine",
+    "a11y-engine-experimental"
+  ],
   "metadata": {
     "description": "Ensures the order of headings is semantically correct",
-    "help": "Heading levels should only increase by one"
+    "help": "Heading levels must increase by one"
   },
   "all": [],
   "any": ["heading-order"],
