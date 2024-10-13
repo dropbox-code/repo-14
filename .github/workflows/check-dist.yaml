@@ -273,7 +273,7 @@ jobs:
         \ after build.  See status below:\"\n  git diff\n  exit 1\nfi\n"
     - continue-on-error: true
       if: failure()
-      uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808
+      uses: actions/upload-artifact@b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882
       with:
         name: dist
         path: ${{ matrix.app.directory }}/dist/
