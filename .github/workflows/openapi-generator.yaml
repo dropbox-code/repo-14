@@ -546,7 +546,7 @@ jobs:
         java-version: 8
     - continue-on-error: true
       name: Download openapi-generator-cli.jar artifact
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: openapi-generator-cli.jar
         path: modules/openapi-generator-cli/target
@@ -832,7 +832,7 @@ jobs:
         java-version: 8
     - continue-on-error: true
       name: Download openapi-generator-cli.jar artifact
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: openapi-generator-cli.jar
         path: modules/openapi-generator-cli/target
