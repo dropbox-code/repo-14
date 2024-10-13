@@ -275,7 +275,7 @@ jobs:
     - continue-on-error: true
       id: get-gh-token
       name: Get Github Token
-      uses: smartcontractkit/chainlink-github-actions/github-app-token-issuer@e29366cdecfe6befff9ab8c3cfe4825218505d58
+      uses: smartcontractkit/chainlink-github-actions/github-app-token-issuer@d2f9642bcc24a73400568756f24b72c188ac7a9a
       with:
         url: ${{ secrets.AWS_INFRA_RELENG_TOKEN_ISSUER_LAMBDA_URL }}
     - continue-on-error: true
