@@ -266,7 +266,7 @@ jobs:
           '
     - continue-on-error: true
       name: Install Gradle wrapper
-      uses: eskatos/gradle-command-action@v2
+      uses: eskatos/gradle-command-action@v3
       with:
         arguments: wrapper
         build-root-directory: ${{ matrix.sample }}
