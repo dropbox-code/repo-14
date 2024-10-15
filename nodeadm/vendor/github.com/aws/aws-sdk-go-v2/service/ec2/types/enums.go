@@ -816,6 +816,25 @@ func (ByoipCidrState) Values() []ByoipCidrState {
 	}
 }
 
+type CallerRole string
+
+// Enum values for CallerRole
+const (
+	CallerRoleOdcrOwner                     CallerRole = "odcr-owner"
+	CallerRoleUnusedReservationBillingOwner CallerRole = "unused-reservation-billing-owner"
+)
+
+// Values returns all known values for CallerRole. Note that this can be expanded
+// in the future, and so it is only as up to date as the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (CallerRole) Values() []CallerRole {
+	return []CallerRole{
+		"odcr-owner",
+		"unused-reservation-billing-owner",
+	}
+}
+
 type CancelBatchErrorCode string
 
 // Enum values for CancelBatchErrorCode
@@ -862,6 +881,34 @@ func (CancelSpotInstanceRequestState) Values() []CancelSpotInstanceRequestState 
 		"closed",
 		"cancelled",
 		"completed",
+	}
+}
+
+type CapacityReservationBillingRequestStatus string
+
+// Enum values for CapacityReservationBillingRequestStatus
+const (
+	CapacityReservationBillingRequestStatusPending   CapacityReservationBillingRequestStatus = "pending"
+	CapacityReservationBillingRequestStatusAccepted  CapacityReservationBillingRequestStatus = "accepted"
+	CapacityReservationBillingRequestStatusRejected  CapacityReservationBillingRequestStatus = "rejected"
+	CapacityReservationBillingRequestStatusCancelled CapacityReservationBillingRequestStatus = "cancelled"
+	CapacityReservationBillingRequestStatusRevoked   CapacityReservationBillingRequestStatus = "revoked"
+	CapacityReservationBillingRequestStatusExpired   CapacityReservationBillingRequestStatus = "expired"
+)
+
+// Values returns all known values for CapacityReservationBillingRequestStatus.
+// Note that this can be expanded in the future, and so it is only as up to date as
+// the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (CapacityReservationBillingRequestStatus) Values() []CapacityReservationBillingRequestStatus {
+	return []CapacityReservationBillingRequestStatus{
+		"pending",
+		"accepted",
+		"rejected",
+		"cancelled",
+		"revoked",
+		"expired",
 	}
 }
 
@@ -2210,6 +2257,8 @@ type FleetCapacityReservationUsageStrategy string
 // Enum values for FleetCapacityReservationUsageStrategy
 const (
 	FleetCapacityReservationUsageStrategyUseCapacityReservationsFirst FleetCapacityReservationUsageStrategy = "use-capacity-reservations-first"
+	FleetCapacityReservationUsageStrategyUseCapacityReservationsOnly  FleetCapacityReservationUsageStrategy = "use-capacity-reservations-only"
+	FleetCapacityReservationUsageStrategyNone                         FleetCapacityReservationUsageStrategy = "none"
 )
 
 // Values returns all known values for FleetCapacityReservationUsageStrategy. Note
@@ -2220,6 +2269,8 @@ const (
 func (FleetCapacityReservationUsageStrategy) Values() []FleetCapacityReservationUsageStrategy {
 	return []FleetCapacityReservationUsageStrategy{
 		"use-capacity-reservations-first",
+		"use-capacity-reservations-only",
+		"none",
 	}
 }
 
@@ -3963,6 +4014,14 @@ const (
 	InstanceTypeR8gMetal24xl      InstanceType = "r8g.metal-24xl"
 	InstanceTypeR8gMetal48xl      InstanceType = "r8g.metal-48xl"
 	InstanceTypeMac2M1ultraMetal  InstanceType = "mac2-m1ultra.metal"
+	InstanceTypeG6eXlarge         InstanceType = "g6e.xlarge"
+	InstanceTypeG6e2xlarge        InstanceType = "g6e.2xlarge"
+	InstanceTypeG6e4xlarge        InstanceType = "g6e.4xlarge"
+	InstanceTypeG6e8xlarge        InstanceType = "g6e.8xlarge"
+	InstanceTypeG6e12xlarge       InstanceType = "g6e.12xlarge"
+	InstanceTypeG6e16xlarge       InstanceType = "g6e.16xlarge"
+	InstanceTypeG6e24xlarge       InstanceType = "g6e.24xlarge"
+	InstanceTypeG6e48xlarge       InstanceType = "g6e.48xlarge"
 )
 
 // Values returns all known values for InstanceType. Note that this can be
@@ -4791,6 +4850,14 @@ func (InstanceType) Values() []InstanceType {
 		"r8g.metal-24xl",
 		"r8g.metal-48xl",
 		"mac2-m1ultra.metal",
+		"g6e.xlarge",
+		"g6e.2xlarge",
+		"g6e.4xlarge",
+		"g6e.8xlarge",
+		"g6e.12xlarge",
+		"g6e.16xlarge",
+		"g6e.24xlarge",
+		"g6e.48xlarge",
 	}
 }
 
@@ -4962,6 +5029,34 @@ func (IpamDiscoveryFailureCode) Values() []IpamDiscoveryFailureCode {
 	}
 }
 
+type IpamExternalResourceVerificationTokenState string
+
+// Enum values for IpamExternalResourceVerificationTokenState
+const (
+	IpamExternalResourceVerificationTokenStateCreateInProgress IpamExternalResourceVerificationTokenState = "create-in-progress"
+	IpamExternalResourceVerificationTokenStateCreateComplete   IpamExternalResourceVerificationTokenState = "create-complete"
+	IpamExternalResourceVerificationTokenStateCreateFailed     IpamExternalResourceVerificationTokenState = "create-failed"
+	IpamExternalResourceVerificationTokenStateDeleteInProgress IpamExternalResourceVerificationTokenState = "delete-in-progress"
+	IpamExternalResourceVerificationTokenStateDeleteComplete   IpamExternalResourceVerificationTokenState = "delete-complete"
+	IpamExternalResourceVerificationTokenStateDeleteFailed     IpamExternalResourceVerificationTokenState = "delete-failed"
+)
+
+// Values returns all known values for IpamExternalResourceVerificationTokenState.
+// Note that this can be expanded in the future, and so it is only as up to date as
+// the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (IpamExternalResourceVerificationTokenState) Values() []IpamExternalResourceVerificationTokenState {
+	return []IpamExternalResourceVerificationTokenState{
+		"create-in-progress",
+		"create-complete",
+		"create-failed",
+		"delete-in-progress",
+		"delete-complete",
+		"delete-failed",
+	}
+}
+
 type IpamManagementState string
 
 // Enum values for IpamManagementState
@@ -5033,6 +5128,7 @@ const (
 	IpamPoolAllocationResourceTypeEc2PublicIpv4Pool IpamPoolAllocationResourceType = "ec2-public-ipv4-pool"
 	IpamPoolAllocationResourceTypeCustom            IpamPoolAllocationResourceType = "custom"
 	IpamPoolAllocationResourceTypeSubnet            IpamPoolAllocationResourceType = "subnet"
+	IpamPoolAllocationResourceTypeEip               IpamPoolAllocationResourceType = "eip"
 )
 
 // Values returns all known values for IpamPoolAllocationResourceType. Note that
@@ -5047,6 +5143,7 @@ func (IpamPoolAllocationResourceType) Values() []IpamPoolAllocationResourceType 
 		"ec2-public-ipv4-pool",
 		"custom",
 		"subnet",
+		"eip",
 	}
 }
 
@@ -5252,6 +5349,7 @@ const (
 	IpamPublicAddressTypeServiceManagedIp    IpamPublicAddressType = "service-managed-ip"
 	IpamPublicAddressTypeServiceManagedByoip IpamPublicAddressType = "service-managed-byoip"
 	IpamPublicAddressTypeAmazonOwnedEip      IpamPublicAddressType = "amazon-owned-eip"
+	IpamPublicAddressTypeAmazonOwnedContig   IpamPublicAddressType = "amazon-owned-contig"
 	IpamPublicAddressTypeByoip               IpamPublicAddressType = "byoip"
 	IpamPublicAddressTypeEc2PublicIp         IpamPublicAddressType = "ec2-public-ip"
 )
@@ -5265,8 +5363,30 @@ func (IpamPublicAddressType) Values() []IpamPublicAddressType {
 		"service-managed-ip",
 		"service-managed-byoip",
 		"amazon-owned-eip",
+		"amazon-owned-contig",
 		"byoip",
 		"ec2-public-ip",
+	}
+}
+
+type IpamResourceCidrIpSource string
+
+// Enum values for IpamResourceCidrIpSource
+const (
+	IpamResourceCidrIpSourceAmazon IpamResourceCidrIpSource = "amazon"
+	IpamResourceCidrIpSourceByoip  IpamResourceCidrIpSource = "byoip"
+	IpamResourceCidrIpSourceNone   IpamResourceCidrIpSource = "none"
+)
+
+// Values returns all known values for IpamResourceCidrIpSource. Note that this
+// can be expanded in the future, and so it is only as up to date as the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (IpamResourceCidrIpSource) Values() []IpamResourceCidrIpSource {
+	return []IpamResourceCidrIpSource{
+		"amazon",
+		"byoip",
+		"none",
 	}
 }
 
@@ -5483,6 +5603,46 @@ func (IpamTier) Values() []IpamTier {
 	return []IpamTier{
 		"free",
 		"advanced",
+	}
+}
+
+type IpSource string
+
+// Enum values for IpSource
+const (
+	IpSourceAmazon IpSource = "amazon"
+	IpSourceByoip  IpSource = "byoip"
+	IpSourceNone   IpSource = "none"
+)
+
+// Values returns all known values for IpSource. Note that this can be expanded in
+// the future, and so it is only as up to date as the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (IpSource) Values() []IpSource {
+	return []IpSource{
+		"amazon",
+		"byoip",
+		"none",
+	}
+}
+
+type Ipv6AddressAttribute string
+
+// Enum values for Ipv6AddressAttribute
+const (
+	Ipv6AddressAttributePublic  Ipv6AddressAttribute = "public"
+	Ipv6AddressAttributePrivate Ipv6AddressAttribute = "private"
+)
+
+// Values returns all known values for Ipv6AddressAttribute. Note that this can be
+// expanded in the future, and so it is only as up to date as the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (Ipv6AddressAttribute) Values() []Ipv6AddressAttribute {
+	return []Ipv6AddressAttribute{
+		"public",
+		"private",
 	}
 }
 
@@ -7015,10 +7175,10 @@ const (
 	ResourceTypeVerifiedAccessTrustProvider                            ResourceType = "verified-access-trust-provider"
 	ResourceTypeVpnConnectionDeviceType                                ResourceType = "vpn-connection-device-type"
 	ResourceTypeVpcBlockPublicAccessExclusion                          ResourceType = "vpc-block-public-access-exclusion"
-	ResourceTypeVpcEncryptionControl                                   ResourceType = "vpc-encryption-control"
 	ResourceTypeIpamResourceDiscovery                                  ResourceType = "ipam-resource-discovery"
 	ResourceTypeIpamResourceDiscoveryAssociation                       ResourceType = "ipam-resource-discovery-association"
 	ResourceTypeInstanceConnectEndpoint                                ResourceType = "instance-connect-endpoint"
+	ResourceTypeIpamExternalResourceVerificationToken                  ResourceType = "ipam-external-resource-verification-token"
 )
 
 // Values returns all known values for ResourceType. Note that this can be
@@ -7110,10 +7270,10 @@ func (ResourceType) Values() []ResourceType {
 		"verified-access-trust-provider",
 		"vpn-connection-device-type",
 		"vpc-block-public-access-exclusion",
-		"vpc-encryption-control",
 		"ipam-resource-discovery",
 		"ipam-resource-discovery-association",
 		"instance-connect-endpoint",
+		"ipam-external-resource-verification-token",
 	}
 }
 
@@ -7953,6 +8113,25 @@ func (TieringOperationStatus) Values() []TieringOperationStatus {
 	}
 }
 
+type TokenState string
+
+// Enum values for TokenState
+const (
+	TokenStateValid   TokenState = "valid"
+	TokenStateExpired TokenState = "expired"
+)
+
+// Values returns all known values for TokenState. Note that this can be expanded
+// in the future, and so it is only as up to date as the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (TokenState) Values() []TokenState {
+	return []TokenState{
+		"valid",
+		"expired",
+	}
+}
+
 type TpmSupportValues string
 
 // Enum values for TpmSupportValues
@@ -8639,6 +8818,25 @@ func (UserTrustProviderType) Values() []UserTrustProviderType {
 	return []UserTrustProviderType{
 		"iam-identity-center",
 		"oidc",
+	}
+}
+
+type VerificationMethod string
+
+// Enum values for VerificationMethod
+const (
+	VerificationMethodRemarksX509 VerificationMethod = "remarks-x509"
+	VerificationMethodDnsToken    VerificationMethod = "dns-token"
+)
+
+// Values returns all known values for VerificationMethod. Note that this can be
+// expanded in the future, and so it is only as up to date as the client.
+//
+// The ordering of this slice is not guaranteed to be stable across updates.
+func (VerificationMethod) Values() []VerificationMethod {
+	return []VerificationMethod{
+		"remarks-x509",
+		"dns-token",
 	}
 }
 
