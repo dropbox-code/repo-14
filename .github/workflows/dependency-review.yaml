@@ -754,7 +754,7 @@ jobs:
     - continue-on-error: true
       uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
     - continue-on-error: true
-      uses: golang/govulncheck-action@dd0578b371c987f96d1185abb54344b44352bd58
+      uses: golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee
       with:
         cache: false
         go-version-file: nodeadm/go.mod
