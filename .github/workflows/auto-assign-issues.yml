@@ -248,7 +248,7 @@ jobs:
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
       name: Auto assign axe-core integration issues to Axe API team project board
-      uses: srggrs/assign-one-project-github-action@1.2.1
+      uses: srggrs/assign-one-project-github-action@1.3.1
       with:
         column_name: Ungroomed
         project: https://github.com/orgs/dequelabs/projects/53
