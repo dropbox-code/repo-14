@@ -273,7 +273,7 @@ jobs:
         java-version: 11
     - continue-on-error: true
       name: Gradle Test
-      uses: eskatos/gradle-command-action@v1.3.3
+      uses: eskatos/gradle-command-action@v3.5.0
       with:
         arguments: test
         gradle-version: ${{ steps.gradle.version }}
