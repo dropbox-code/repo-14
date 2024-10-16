@@ -513,7 +513,7 @@ jobs:
         cache: true
         go-version: stable
     - continue-on-error: true
-      uses: golangci/golangci-lint-action@v4
+      uses: golangci/golangci-lint-action@v6
       with:
         args: --max-same-issues=0 --max-issues-per-linter=0 --verbose
         install-mode: binary
