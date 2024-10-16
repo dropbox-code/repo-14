@@ -260,7 +260,7 @@ jobs:
     - continue-on-error: true
       id: previoustag
       name: Get Release Tag
-      uses: WyriHaximus/github-action-get-previous-tag@v1.1
+      uses: WyriHaximus/github-action-get-previous-tag@v1.4
     - continue-on-error: true
       name: Set Artifact Version
       run: 'echo Artifact version: ${{ steps.previoustag.outputs.tag }}
