@@ -2299,17 +2299,6 @@ dependencies = [
 
 [[package]]
 name = "metrics-exporter-statsd"
-version = "0.7.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "82bd7bb16e431f15d56a61b18ee34881cd9d427da7b4450d1a588c911c1d9ac3"
-dependencies = [
- "cadence",
- "metrics 0.22.3",
- "thiserror",
-]
-
-[[package]]
-name = "metrics-exporter-statsd"
 version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a0905009f54328c743a2046a86c88157621f473a2202cfa922cb716615c4b292"
@@ -2444,7 +2433,7 @@ dependencies = [
  "indoc",
  "itertools 0.12.1",
  "metrics 0.22.3",
- "metrics-exporter-statsd 0.7.0",
+ "metrics-exporter-statsd",
  "mongodb",
  "ordered-float",
  "proptest",
@@ -4234,7 +4223,7 @@ dependencies = [
  "http 1.1.0",
  "metrics 0.23.0",
  "metrics-exporter-prometheus",
- "metrics-exporter-statsd 0.8.0",
+ "metrics-exporter-statsd",
  "opentelemetry",
  "opentelemetry-datadog",
  "opentelemetry-http",
