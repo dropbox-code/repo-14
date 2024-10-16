@@ -17,7 +17,7 @@ config = "0.14.0"
 criterion = "0.5.1"
 dotenvy = "0.15.7"
 eyre = "0.6.12"
-futures = "0.3.30"
+futures = "0.3.31"
 hex = { version = "0.4.3", features = ["serde"] }
 humantime-serde = "1.1.1"
 indicatif = "0.17.7"
