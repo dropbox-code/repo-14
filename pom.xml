@@ -77,7 +77,7 @@
         <jheaps.version>0.14</jheaps.version>
         <jmh.version>1.37</jmh.version>
         <junit.version>5.10.1</junit.version>
-        <junit.platform.version>1.10.1</junit.platform.version>
+        <junit.platform.version>1.11.2</junit.platform.version>
         <lifecycle-mapping.version>1.0.0</lifecycle-mapping.version>
         <maven-assembly-plugin.version>3.6.0</maven-assembly-plugin.version>
         <maven-bundle-plugin.version>5.1.9</maven-bundle-plugin.version>
