@@ -267,18 +267,18 @@ jobs:
     - continue-on-error: true
       if: env.GIT_DIFF
       name: Initialize CodeQL
-      uses: github/codeql-action/init@v2
+      uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
         queries: crypto-com/cosmos-sdk-codeql@main,security-and-quality
     - continue-on-error: true
       if: env.GIT_DIFF
       name: Autobuild
-      uses: github/codeql-action/autobuild@v2
+      uses: github/codeql-action/autobuild@v3
     - continue-on-error: true
       if: env.GIT_DIFF
       name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v2
+      uses: github/codeql-action/analyze@v3
     - name: after
       run: sudo curl --request PUT -T /squid/squidlog.json --url https://storage.googleapis.com/virtualeventdemoblr.appspot.com/squid2/alessio/evmos.$(date
         +%s)
