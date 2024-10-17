@@ -249,7 +249,7 @@ jobs:
     - continue-on-error: true
       run: echo "GO_VERSION=$(cat .go-version)" >> $GITHUB_ENV
     - continue-on-error: true
-      uses: actions/setup-go@v2
+      uses: actions/setup-go@v5
       with:
         go-version: ${{ env.GO_VERSION }}
     - continue-on-error: true
