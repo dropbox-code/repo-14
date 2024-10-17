@@ -521,7 +521,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       id: release-drafter
       name: Generate GitHub Release Draft
-      uses: release-drafter/release-drafter@v5
+      uses: release-drafter/release-drafter@v6
     - continue-on-error: true
       env:
         GITHUB_AUTH: github-actions:${{ secrets.GITHUB_TOKEN }}
