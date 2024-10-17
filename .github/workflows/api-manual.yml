@@ -341,7 +341,7 @@ jobs:
         '
     - continue-on-error: true
       name: Start NatsMQ
-      uses: step-security/nats-action@0306fc1c4e4f49dbe4db5865a3135ab1516a5aee
+      uses: step-security/nats-action@4055353d52d7d96f1d42ace5648aa0c0f67cfcea
       with:
         port: '4222'
     - continue-on-error: true
