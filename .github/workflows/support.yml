@@ -245,7 +245,7 @@ jobs:
 
         sudo sh -c ''echo 1 > /proc/sys/net/ipv4/ip_forward'''
     - continue-on-error: true
-      uses: dessant/support-requests@v3
+      uses: dessant/support-requests@v4
       with:
         issue-comment: ':wave: @{issue-author}, we use the issue tracker exclusively
           for bug reports and feature requests. However, this issue appears to be
