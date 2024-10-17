@@ -40,7 +40,7 @@ THE SOFTWARE.
 
   <properties>
     <staplerFork>true</staplerFork>
-    <hamcrest.version>2.2</hamcrest.version>
+    <hamcrest.version>3.0</hamcrest.version>
     <xmlunit.version>2.9.0</xmlunit.version>
     <!-- Filled in by jacoco-maven-plugin -->
     <jacocoSurefireArgs />
