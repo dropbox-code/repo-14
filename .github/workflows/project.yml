@@ -249,7 +249,7 @@ jobs:
         "maryelizbeth", "YakDriver", "zhelding"]'), github.actor) && github.event.pull_request.draft
         == false
       name: Move team PRs to Review column
-      uses: alex-page/github-project-automation-plus@v0.8.1
+      uses: alex-page/github-project-automation-plus@v0.9.0
       with:
         column: Open Maintainer PR
         project: AWS Provider Working Board

@@ -247,7 +247,7 @@ jobs:
     - continue-on-error: true
       if: github.event.issue.milestone.title == 'Roadmap'
       name: Move Roadmap Items To Working Board
-      uses: alex-page/github-project-automation-plus@v0.8.1
+      uses: alex-page/github-project-automation-plus@v0.9.0
       with:
         column: To Do
         project: AWS Provider Working Board
